@@ -8,6 +8,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
+  <!-- Важная таблица стилей Owl -->
+  <link rel = "stylesheet" href = "owl-carousel/owl.carousel.css" >  
+ 
+  <!-- Тема по умолчанию -->
+  <link rel = "stylesheet" href = "owl-carousel/owl.theme.css" >  
+ 
+  <!-- jQuery 1.7+ -->
+  <script src = "jquery-1.9.1.min.js" ></script> 
+ 
+  <!-- Включить плагин js -->
+  <script src = "assets/owl-carousel/owl.carousel.js" ></script> 
+
+
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="./css/main.css">
@@ -214,24 +227,261 @@
         nibh cursus integer dolor, commodo. Amet, aliquam condimentum.
       </p>
 
-      <ul>
-        <li class="p-8">
-
-          <p class=" font-light text-base">
-            Starter Plan
-          </p>
-          
-
-          <button class=" button center mx-auto py-3 px-8 rounded-full font-normal text-xs leading-4 text-white ">
+      <ul class="flex w-[100%] justify-between items-stretch mb-24">
+        <li class="p-8 max-w-[360px] text-[#141123] flex flex-col justify-between rounded-3xl" >
+          <div class="wrapper">
+            <p class=" font-light text-base mb-7">
+              Starter Plan
+            </p>
+            <p class="font-normal text-lg leading-[22px] mb-3">
+              <span class="font-bold text-[42px] leading-[48px]  ">
+                $29
+              </span>
+              /month
+            </p>
+            <p class="font-light text-sm opacity-[40%] max-w-[260px] mb-11 ">
+              This package is suitable for teams 1-15 people.
+            </p>
+            <ul>
+              <li class="font-bold text-lg ">
+                What’s included:
+              </li>
+              <li class="   leading-9  opacity-[70%]">
+                10 GB Dedicated Hosting Free
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                Best for Developers, Freelancers
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                1 Year Support 
+              </li>
+            </ul>
+          </div>
+          <button class=" h-12flex-1 button inline-block center w-[100%] py-3 px-8 rounded-full font-normal text-xs leading-4 text-white ">
+            Read More
+          </button>
+        </li>
+        <li class="blural p-8 max-w-[360px] text-[#FFFFFF] flex flex-col justify-between rounded-3xl" >
+          <div class="wrapper">
+            <p class=" font-light text-base mb-7">
+              Starter Plan
+            </p>
+            <p class="font-normal text-lg leading-[22px] mb-3">
+              <span class="font-bold text-[42px] leading-[48px]  ">
+                $29
+              </span>
+              /month
+            </p>
+            <p class="font-light text-sm opacity-[40%] max-w-[260px] mb-11 ">
+              This package is suitable for teams 1-15 people.
+            </p>
+            <ul class="mb-9">
+              <li class="font-bold text-lg ">
+                What’s included:
+              </li>
+              <li class="   leading-9  opacity-[70%]">
+                10 GB Dedicated Hosting Free
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                Best for Developers, Freelancers
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                1 Year Support 
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                Best for Developers, Freelancers
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                1 Year Support 
+              </li>
+            </ul>
+          </div>
+          <button class=" h-12flex-1 button inline-block center w-[100%] py-3 px-8 rounded-full font-normal text-xs leading-4 text-white ">
+            Read More
+          </button>
+        </li>
+        <li class="p-8 max-w-[360px] text-[#141123] flex flex-col justify-between rounded-3xl" >
+          <div class="wrapper">
+            <p class=" font-light text-base mb-7">
+              Starter Plan
+            </p>
+            <p class="font-normal text-lg leading-[22px] mb-3">
+              <span class="font-bold text-[42px] leading-[48px]  ">
+                $29
+              </span>
+              /month
+            </p>
+            <p class="font-light text-sm opacity-[40%] max-w-[260px] mb-11 ">
+              This package is suitable for teams 1-15 people.
+            </p>
+            <ul>
+              <li class="font-bold text-lg ">
+                What’s included:
+              </li>
+              <li class="   leading-9  opacity-[70%]">
+                10 GB Dedicated Hosting Free
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                Best for Developers, Freelancers
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                1 Year Support 
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                Best for Developers, Freelancers
+              </li>
+              <li class="    leading-9  opacity-[70%]">
+                1 Year Support 
+              </li>
+            </ul>
+          </div>
+          <button class=" h-12flex-1 button inline-block center w-[100%] py-3 px-8 rounded-full font-normal text-xs leading-4 text-white ">
             Read More
           </button>
         </li>
       </ul>
+    </div>
+
+    <div class="carusel  bg-[]">
+      <h2 class="platform__title text-center font-bold text-5xl leading-[50px]  mb-4  ">
+        Client Testimonial
+      </h2>
+      <p class="platform__text mx-auto text-center text-[#14112366] max-w-[650px] font-light text-base mb-12">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus 
+        nibh cursus integer dolor, commodo. Amet, aliquam condimentum.
+      </p>
+
+      <div id="owl-demo" class="owl-carousel owl-theme">
+ 
+        <div class="item"><img src="assets/fullimage1.jpg" alt="The Last of us"></div>
+        <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
+        <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
+       
+      </div>
 
     </div>
+
+    <div class="landing flex justify-between items-center px-12 py-10 rounded-3xl mb-7">
+      <h2 class="text-white max-w-[418px] font-bold text-[32px] leading-[42px] ">
+        Grow your business fast with Sark SaaS Landing.
+      </h2>
+
+      
+      <button class=" button center py-5 px-11 rounded-full font-normal text-xs leading-4 text-white ">
+        Download Now
+      </button>
+    </div>
+
+    <footer class="flex justify-between items-center mb-8">
+
+      <ul  class="text-[#141123]">
+        <li class="font-bold text-lg   ">
+          Company
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            About          
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Features          
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Works          
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Career  
+          </a>
+        </li>
+      </ul>
+      <ul  class="text-[#141123]">
+        <li class="font-bold text-lg   ">
+          Help
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Customer Support
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Delivery Details
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Terms & Conditions
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Privacy Policy
+          </a>
+        </li>
+      </ul>
+      <ul  class="text-[#141123]">
+        <li class="font-bold text-lg   ">
+          Resources
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Free eBooks
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Development Tutorial
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            How to - Blog
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Youtube Playlist
+          </a>
+        </li>
+      </ul>
+      <ul  class="text-[#141123]">
+        <li class="font-bold text-lg   ">
+          Links
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Free eBooks
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Development Tutorial
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            How to - Blog
+          </a>
+        </li>
+        <li class="font-light text-sm leading-10     ">
+          <a href="#">
+            Youtube Playlist
+          </a>
+        </li>
+      </ul>
+
+    </footer>
 
 
   </div>
 
+
+
+  <script src="./main.js"></script>
 </body>
 </html>
